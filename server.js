@@ -18,8 +18,8 @@ app.post('/login', (req, res) => {
 // Task 4: Song Data API
 app.get('/api/songs', (req, res) => {
     res.json([
-        { id: 1, name: "Chill Vibes", artist: "Lofi Girl", url: "https://www.soundhelix.com", img: "https://picsum.photos" },
-        { id: 2, name: "Night Drive", artist: "Synthwave", url: "https://www.soundhelix.com", img: "https://picsum.photos" }
+        { id: 1, name: "Chill Vibes", artist: "Lofi Girl", url: "https://m.soundcloud.com/soundhelix/the-stationary-ark", img: "https://picsum.photos/200/300.jpg" },
+        { id: 2, name: "Night Drive", artist: "Synthwave", url: "https://m.soundcloud.com/soundhelix/soundhelix-song-1", img: "https://picsum.photos/200/300.webp" }
     ]);
 });
 
